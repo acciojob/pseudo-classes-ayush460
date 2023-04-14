@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+:root {
+  background-color: skyblue;
+}
+
+p:first-child {
+  background-color: black;
+  color: white;
+}
+
+li:nth-child(odd) {
+  background-color: white;
+}
+
+li:nth-child(even) {
+  background-color: #c9c9c9;
+}
+
+p:last-child {
+  color: red;
+}
